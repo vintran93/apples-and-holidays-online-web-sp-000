@@ -25,10 +25,10 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
   # holiday_hash is identical to the one above
   # add the second argument, which is a supply, to BOTH the
   # Christmas AND the New Year's arrays
-  holiday_supplies_hash["winter][:christmas] = "tree" 
-  holiday_supplies[:winter][:new_years] = "champagne"
+  holiday_supplies_hash[winter][:christmas] = "tree" 
+  holiday_supplies_hash[:winter][:new_years] = "champagne"
   
-  holiday_supplies
+  holiday_supplies_hash
 end
 
 
